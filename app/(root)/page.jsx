@@ -25,20 +25,20 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const MyPage = () => {
-	const fullpageOptions = {
-		anchors: ["home", "about", "projects", "contact"],
-		scrollingSpeed: 1000,
-		licenseKey: "gplv3-license",
-		menu: "#sidebar",
-		lockAnchors: false,
-	};
+	// const fullpageOptions = {
+	// 	anchors: ["home", "about", "projects", "contact"],
+	// 	scrollingSpeed: 1000,
+	// 	licenseKey: "gplv3-license-12345678-12345678-123", //"gplv3-license",
+	// 	menu: "#sidebar",
+	// 	lockAnchors: false,
+	// };
 
 	return (
-		<div>
-			<ReactFullpage
+		<div className="h-screen w-full overflow-y-auto overflow-x-hidden snap-y snap-mandatory scroll-smooth">
+			{/* <ReactFullpage
 				render={() => (
-					<ReactFullpage.Wrapper>
-						<div className="section">
+					<ReactFullpage.Wrapper> */}
+						<div  id="home" className="section min-h-screen snap-start relative">
 							<div className="mx-auto container grid grid-cols-1 md:grid-cols-3 gap-4 p-10 overflow-hidden md:px-20">
 								<motion.div
 									className="col-span-2 flex flex-col justify-center items-center md:items-start text-center md:text-start"
@@ -137,7 +137,7 @@ const MyPage = () => {
 								</motion.div>
 							</div>
 						</div>
-						<div className="section">
+						<div id="about" className="section min-h-screen snap-start relative">
 							<div className="relative md:h-screen w-screen gap-4 flex justify-center items-center flex-col overflow-hidden">
 								<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
 									<motion.div
@@ -197,13 +197,13 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										<Button variation="primary">
-											<Link href="/about">Learn More About Me</Link>
+											<Link href="/about">Click Here</Link>
 										</Button>
 									</motion.div>
 								</div>
 							</div>
 						</div>
-						<div className="section">
+						<div id="projects" className="section min-h-screen snap-start relative">
 							<div className="relative md:h-screen w-screen gap-4 p-10 flex justify-center items-center flex-col overflow-hidden">
 								<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
 									<motion.div
@@ -267,13 +267,13 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										<Button variation="primary">
-											<Link href="/projects">Learn More</Link>
+											<Link href="/projects">Click here to View Projects</Link>
 										</Button>
 									</motion.div>
 								</div>
 							</div>
 						</div>
-						<div className="section">
+						<div id="contact" className="section min-h-screen snap-start relative">
 							<div className="relative md:h-screen w-screen  gap-4 p-10 flex justify-center items-center flex-col overflow-hidden">
 								<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
 									<motion.div
@@ -400,10 +400,10 @@ const MyPage = () => {
 								</div>
 							</div>
 						</div>
-					</ReactFullpage.Wrapper>
+					{/* </ReactFullpage.Wrapper>
 				)}
 				{...fullpageOptions}
-			/>
+			/> */}
 		</div>
 	);
 };

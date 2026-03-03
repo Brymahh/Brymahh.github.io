@@ -9,14 +9,14 @@ import Chat from "@/components/Chat";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 
 export const metadata = {
-    title: "Alvalens | Portofolio",
+    title: "Godsgift | Portofolio",
 
     description:
-		"My name is Alvalens, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
+		"My name is God, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
 
     author: "Alvalen Shafelbilyunazra",
     siteUrl: "https://www.alvalens.my.id",
-    applicationName: "Alvalens",
+    applicationName: "Godsgift",
 
     keywords: [
 		"alvalens",

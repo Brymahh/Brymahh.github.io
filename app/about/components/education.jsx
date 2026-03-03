@@ -285,9 +285,9 @@ export default function Education() {
 							<div className="flex items-center gap-2">
 								<p className="text-gray-600 text-justify title text-lg">
 								I graduated from the University of Benin as the Best Graduating Student in Structural Engineering.
-								Throughout my undergraduate years, I served as Assistant Course Representative from my first year 
+								Throughout my undergraduate years, I was an Assistant Student Representative for a class of over 75+ students from my first year 
 								until graduation. I later served as Vice President of the Association of Civil and Structural Engineering Students, 
-								and then as a Member of the Faculty of Engineering Parliament. <br /> Beyond academics, I was a co-organizer for the Google 
+								and then as a Member of the Faculty of Engineering Student Parliament. <br /> Beyond academics, I was a co-organizer for the Google 
 								Developer Groups Benin City and volunteered at the Edo Innovation Hub, where I taught Scratch and computer 
 								appreciation to learners ranging from children to adults. That volunteering experience led to an internship with the data team, 
 								marking the beginning of my journey into data science and artificial intelligence.

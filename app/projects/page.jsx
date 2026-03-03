@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import Intervyou1 from "@/public/image/projects/web/intervyou/intervyou-1.png";
-import Intervyou2 from "@/public/image/projects/web/intervyou/intervyou-2.png";
-import Intervyou3 from "@/public/image/projects/web/intervyou/intervyou-3.png";
+import Hcrisis1 from "@/public/image/projects/godsgift/housing_crisis.png";
+// import Intervyou2 from "@/public/image/projects/web/intervyou/intervyou-2.png";
+// import Intervyou3 from "@/public/image/projects/web/intervyou/intervyou-3.png";
 import ProjectAll from "@/public/image/projects.png";
 
 import Hr from "@/components/Hr";
@@ -19,9 +19,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 const category = {
-	1: "Web Development",
-	2: "AI & Machine Learning",
-	9: "Other",
+	1: "Data Science & AI",
+	2: "Data Analytics",
 };
 
 export default function Page() {
@@ -92,7 +91,7 @@ export default function Page() {
 									}}
 									className="w-full h-full shadow-lg">
 									<Image
-										src={Intervyou1}
+										src={Hcrisis1}
 										alt="Godsgift"
 										layout="fill"
 										objectFit="cover"
@@ -101,7 +100,7 @@ export default function Page() {
 									/>
 								</motion.div>
 							</div>
-							<div className="absolute top-10 right-28 h-[30%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
+							{/* <div className="absolute top-10 right-28 h-[30%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
 								<motion.div
 									initial={{
 										opacity: 0,
@@ -124,8 +123,8 @@ export default function Page() {
 										objectPosition="0% 0%"
 									/>
 								</motion.div>
-							</div>
-							<div className="absolute bottom-10 md:bottom-26 right-20 h-[35%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
+							</div> */}
+							{/* <div className="absolute bottom-10 md:bottom-26 right-20 h-[35%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
 								<motion.div
 									initial={{
 										opacity: 0,
@@ -149,7 +148,7 @@ export default function Page() {
 										placeholder="blur"
 									/>
 								</motion.div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<motion.div
@@ -167,19 +166,27 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Intervyou AI
+							Vancouver Housing Crisis Assistant
+							<br />
+							System Architecture & Dashboard{" "}
+							<span className="bg-blue-400 text-black text-sm px-2 py-1 rounded-md ml-2 inline-block">
+								Preview Coming Soon
+							</span>
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							AI Based interview Preparation Website created to help fresh
-							graduates and job seekers prepare for interviews and optimize
-							their CV through AI-powered features. The website is built using
-							Next.js, TypeScript, Tailwind CSS, Shadcn UI, Prisma, and MySQL
-							(TiDB). This website can comprehensively analyze the user&apos;s
-							interview performance by providing a analysis of the user&apos;s
-							answer, gesture, and material recommendation to improve the user&apos;s
-							interview skills.
-						</p>{" "}
-						<div className="mt-3">
+							A dual-system AI platform addressing Vancouver’s housing crisis by combining
+							predictive rent modeling with a Retrieval-Augmented Generation (RAG)
+							rental assistant. The system integrates scraped housing market data from Craiglist with
+							Reddit renter experiences to connect quantitative market trends with
+							lived tenant insights.
+						</p>
+						<ul className="mt-4 text-gray-600 text-md list-disc ml-5 space-y-2">
+						<li>📍 Web scraping pipelines for housing market datasets</li>
+						<li>📍 Regression-based rent prediction modeling (in development)</li>
+						<li>📍 Vector embeddings & RAG pipeline for Reddit rental discussions</li>
+						<li>📍 Integration of market predictions with contextual tenant guidance</li>
+						</ul>{" "}
+						{/* <div className="mt-3">
 							<Button variation="primary">
 								<Link href="projects/intervyou">More</Link>
 							</Button>
@@ -191,7 +198,7 @@ export default function Page() {
 									Preview
 								</a>
 							</Button>
-						</div>
+						</div> */}
 					</motion.div>
 				</div>
 				<div className="mt-16 flex flex-col justify-start items-center w-full pl-10 md:pl-32">
