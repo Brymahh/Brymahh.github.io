@@ -12,39 +12,38 @@ export const metadata = {
     title: "Godsgift | Portofolio",
 
     description:
-		"My name is God, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
+		"My name is I'm Godsgift, a Data Scientist with 3+ years of experience in Data Analytics and Data Science.",
 
-    author: "Alvalen Shafelbilyunazra",
-    siteUrl: "https://www.alvalens.my.id",
-    applicationName: "Godsgift",
+    author: "Godsgift Braimah",
+    siteUrl: "https://brymahh.github.io",
+    applicationName: "Godsgift's Portofolio",
 
     keywords: [
-		"alvalens",
-		"alvalen",
-		"alvalen shafel",
-		"shafel",
-		"alvalen shafelbilyunazra",
-		"alvalen shafel bilyunazra",
-		"bloodfallen",
-		"alvalen porto",
-		"alvalen um",
+		"Godsgift",
+		"Godsgift Braimah",
+		"Data Scientist",
+		"Data Analyst",
+		"Data Science",
+		"artificial intelligence",
+		"AI less complicated",
+		"AI for kids",
+		"Machine Learning",
 	],
 
     openGraph: {
 		type: "website",
-		url: "https://www.alvalens.my.id",
-		title: "Alvalens | Portofolio",
-		site_name: "Alvalens | Portofolio",
-		description: "My name is Alvalens, This is my portofolio website.",
+		url: "https://brymahh.github.io",
+		title: "Godsgift Braimah | Portofolio",
+		site_name: "Godsgift Braimah | Portofolio",
+		description: "Data Professional Portfolio for Godsgift Braimah.",
 		width: 1200,
 		height: 630,
 		images: [
 			{
 				url: "/og-image-rev.png",
-				alt: "Alvalens Portofolio",
+				alt: "Godsgift Braimah | Portofolio",
 			},
 		],
-		site_name: "Alvalens | Portofolio",
 	}
 };
 

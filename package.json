@@ -3,10 +3,10 @@
   "author": {
     "name": "Godsgift Eseoghena Braimah",
     "email": "eseoghenabraimah@gmail.com",
-    "url": "https://alvalens.my.id"
+    "url": "https://brymahh.github.io"
   },
-  "license": "GPL-3.0",
-  "copyright": "Copyright (C) 2025 Alvalen Shafelbilyunazra",
+  "license": "MIT",
+  "copyright": "Copyright (C) 2026 Godsgift  Braimah",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -44,5 +44,5 @@
     "@types/react": "19.1.5",
     "cross-env": "^7.0.3"
   }
-  
+
 }
