@@ -1,8 +1,5 @@
-const withBundleAnalyzer = require("@next/bundle-analyzer")({
-  enabled: process.env.ANALYZE === "true",
-});
-
-module.exports = withBundleAnalyzer({
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   // 1. REQUIRED FOR GITHUB PAGES: Exports the site as static HTML
   output: "export",
 
@@ -12,7 +9,7 @@ module.exports = withBundleAnalyzer({
   },
 
   // 3. KEPT FROM YOUR CODE: Allows your PDF CV download to work!
-  webpack: (config, options) => {
+  webpack: (config) => {
     config.module.rules.push({
       test: /\.pdf$/i,
       type: "asset/source",
@@ -31,10 +28,47 @@ module.exports = withBundleAnalyzer({
           }
         : false,
   },
+};
 
-  // NOTE: The `async headers()` section was completely removed because 
-  // static hosting (GitHub Pages) cannot process server-side headers.
-});
+module.exports = nextConfig;
+
+// const withBundleAnalyzer = require("@next/bundle-analyzer")({
+//   enabled: process.env.ANALYZE === "true",
+// });
+
+// module.exports = withBundleAnalyzer({
+//   // 1. REQUIRED FOR GITHUB PAGES: Exports the site as static HTML
+//   output: "export",
+
+//   // 2. REQUIRED FOR GITHUB PAGES: Disables Next.js image server
+//   images: {
+//     unoptimized: true,
+//   },
+
+//   // 3. KEPT FROM YOUR CODE: Allows your PDF CV download to work!
+//   webpack: (config, options) => {
+//     config.module.rules.push({
+//       test: /\.pdf$/i,
+//       type: "asset/source",
+//     });
+
+//     return config;
+//   },
+
+//   // 4. KEPT FROM YOUR CODE: Performance optimizations
+//   reactStrictMode: true,
+//   compiler: {
+//     removeConsole:
+//       process.env.NODE_ENV === "production"
+//         ? {
+//             exclude: ["error", "warn"],
+//           }
+//         : false,
+//   },
+
+//   // NOTE: The `async headers()` section was completely removed because 
+//   // static hosting (GitHub Pages) cannot process server-side headers.
+// });
 
 
 
