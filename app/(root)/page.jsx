@@ -87,7 +87,7 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										Hi! I&rsquo;m Godsgift, with 3+ years of combined experience in Data Analytics 
+										Hi! I&rsquo;m Godsgift, with 5 years of combined experience in Data Analytics 
 										and Data Science. I'm passionate about how code, dashboards, predictive and 
 										analytical insights translate into real world decisions that shape our 
 										everyday lives and even business outcomes. I am interested in the intersection of
