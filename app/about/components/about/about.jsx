@@ -130,7 +130,7 @@ export default function About() {
 						<span className="text-black font-medium">
 							University of British Columbia, Canada.
 						</span>{" "}
-						Over the past three years, I’ve worked across 
+						Over the past five years, I’ve worked across 
 						<span className="text-black font-medium"> consulting, 
 						healthcare, educational technology, 
 						research, and geospatial </span>  
