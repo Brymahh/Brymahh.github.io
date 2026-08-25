@@ -27,7 +27,7 @@ const experiences = [
 		startDate: "Sep 2022",
 		endDate: "Mar 2023",
 		company: "10Alytics",
-		position: "Junior Data Associate",
+		position: "Junior Data Scientist",
 		type: "Remote",
 		location: "United Kingdom",
 		description:
@@ -46,7 +46,7 @@ const experiences = [
 		startDate: "Apr 2023",
 		endDate: "Feb 2024",
 		company: "10Alytics",
-		position: "Senior Data Associate",
+		position: "Senior Data Scientist",
 		type: "Remote",
 		location: "United Kingdom",
 		description:
@@ -93,7 +93,7 @@ const experiences = [
 		startDate: "Sep 2024",
 		endDate: "Nov 2024",
 		company: "Darey.io",
-		position: "Data Scientist / AI Engineering Intern",
+		position: "Junior AI Engineer",
 		type: "Contract - Remote",
 		location: "United Kingdom",
 		description:
