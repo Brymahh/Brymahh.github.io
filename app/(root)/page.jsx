@@ -87,12 +87,17 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
+										<p className="font-bold text-sm 2xl:text-base text-gray-700 mb-4">
+										(Curious? Hover over the sidebar icons to explore)
+										</p>
+										<p>
 										Hi! I&rsquo;m Godsgift, with 5 years of combined experience in Data Analytics 
 										and Data Science. I'm passionate about how code, dashboards, predictive and 
 										analytical insights translate into real world decisions that shape our 
 										everyday lives and even business outcomes. I am interested in the intersection of
 										AI technologies and our human existence, especially building systems that are both 
 										intelligent and impactful.
+										</p>
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -104,7 +109,7 @@ const MyPage = () => {
 										}}>
 										<Button variation="primary">
 											<Link
-												href={"/docs/GODSGIFT_BRAIMAH_CV.pdf"}
+												href={"/docs/Godsgift_Eseoghena_Braimah_Resume-Senior-Data-Scientist.pdf"}
 												target="_blank"
 												rel="noopener noreferrer"
 												download>

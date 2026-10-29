@@ -12,7 +12,7 @@ export const metadata = {
     title: "Godsgift | Portofolio",
 
     description:
-		"My name is I'm Godsgift, a Data Scientist with 3+ years of experience in Data Analytics and Data Science.",
+		"My name is I'm Godsgift, a Data Scientist with 5+ years of experience in Data Analytics and Data Science.",
 
     author: "Godsgift Braimah",
     siteUrl: "https://brymahh.github.io",
